@@ -1,5 +1,5 @@
 {
-  "name": "ASHS-DZNE7T",
+  "name": "ASHS-Magdeburg-7T",
   "version": "1.0.0",
   "keywords": [
     "hippocampus",
@@ -9,9 +9,9 @@
     "mtl"
   ],
   "shortdesc": "Hippocampal subfield segmentation in 7T MRI",
-  "longdesc": "Automatic segmentation of hippocampal subfields and MTL subregions in high-resolution T2-weighted 7 Tesla MRI scans, using an atlas of healthy young adults. The imaging data and manual segmentation for this atlas were generated at DZNE Magdeburg.",
-  "citation": "http://blah.blah.blah",
-  "url": "http://ashs.picsl.upenn.edu",
+  "longdesc": "Automatic segmentation of hippocampal subfields and MTL subregions in high-resolution T2-weighted 7 Tesla MRI scans, using an atlas of healthy young adults. The imaging data and manual segmentation for this atlas were generated at IKND Magdeburg.",
+  "citation": "https://www.sciencedirect.com/science/article/pii/S2213158217301249",
+  "url": "https://sites.google.com/view/ashs-dox/home",
   "tags": [
     {
       "name": "T2-MRI",
@@ -24,18 +24,6 @@
       "type": "OverlayImage",
       "hint": "Roughtly isotropic (e.g., 1x1x1mm^3) T1-weighted MRI scan of the whole brain.",
       "required": true
-    },
-    {
-      "name": "AC",
-      "type": "PointLandmark",
-      "hint": "Anterior commissure point can be optionally specified to help align the MRI scan to the brain template.",
-      "required": false
-    },
-    {
-      "name": "PC",
-      "type": "PointLandmark",
-      "hint": "Posterior commissure point can be optionally specified to help align the MRI scan to the brain template.",
-      "required": false
     }
   ],
   "parameters": [
